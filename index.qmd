@@ -14,11 +14,12 @@ standalone: true
 ```{r}
 #| eval: true
 #| echo: false
-
-pacman::p_load(tidyverse, fontawesome, scholar, rcrossref,
-               webdriver, rvest,
-               install = FALSE, update = FALSE)
-
+library(tidyverse)
+library(fontawesome)
+library(scholar)
+library(rcrossref)
+library(webdriver)
+library(rvest)
 ```
 
 # Open Scholarship
