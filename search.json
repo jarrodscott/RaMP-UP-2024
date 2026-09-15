@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html#motivation",
+    "href": "index.html#motivation",
+    "title": "Open Scholarship Workshop",
+    "section": "Motivation",
+    "text": "Motivation\n More than 70% of researchers have tried and failed to reproduce another scientist’s experiments, and more than half have failed to reproduce their own experiments. Those are some of the telling figures that emerged from Nature’s survey of 1,576 researchers who took a brief online questionnaire on reproducibility in research.  (Baker 2016)1\nAs of today, this article has been cited at least 3386 times. To get the number of citations for this article I used the function cr_citation_count from the rcrossref package. The function takes a Digital Object Identifier (DOI) as the input and searches CrossRef OpenURL to return the number of citations."
+  },
+  {
+    "objectID": "index.html#some-definitions",
+    "href": "index.html#some-definitions",
+    "title": "Open Scholarship Workshop",
+    "section": "Some definitions",
+    "text": "Some definitions\nAccording to this article in Science Translational Medicine, reproducibility …\n\n … [is a] set of procedures that permit the reader of a paper to see the entire processing trail from the raw data and code to figures and tables.  (Goodman et al. 2016)\n\nOr the U.S. National Science Foundation (NSF) defines it this way …\n\n … refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.  (Cacioppo et al. 2015)"
+  },
+  {
+    "objectID": "index.html#main-principles",
+    "href": "index.html#main-principles",
+    "title": "Open Scholarship Workshop",
+    "section": "Main principles",
+    "text": "Main principles"
+  },
+  {
+    "objectID": "index.html#publication-workflows",
+    "href": "index.html#publication-workflows",
+    "title": "Open Scholarship Workshop",
+    "section": "Publication Workflows",
+    "text": "Publication Workflows\nPublication: Microbial diversity declines in warmed tropical soil and respiration rise exceed predictions as communities adapt\nWorkflow: SWELTR created in the Quarto framework.\n\nPublication: Rapid ecosystem-scale consequences of acute deoxygenation on a Caribbean reef.\nWorkflow: Hypocolypse created using Distll.\n\nPublication: Intestinal microbes as an axis of functional diversity among large marine consumers.\nWorkflow: ProjectDIGEST created using native R Markdown.\n\nAll source code hosted on GitHub and freely available."
+  },
+  {
+    "objectID": "index.html#other-r-markdown-examples",
+    "href": "index.html#other-r-markdown-examples",
+    "title": "Open Scholarship Workshop",
+    "section": "Other R Markdown examples",
+    "text": "Other R Markdown examples\nThe Istmobiome Project Project site created with blogdown and Hugo.\n\nCacao Fermentation Presentation created using reveal.js.\n\nHow the Isthmus of Panama changed the world Presentation created with the xaringan package.\n\nR Markdown Fieldguide R Markdown tutorial website for the 2022 STRI-McGill NEO field course. Made with the Distill blog template.\n\nInteractive fish phylogeny Workflow on database scraping and visualization.\n\nMy CV created using pagedown.\n\nAll source code hosted on GitHub and freely available."
+  },
+  {
+    "objectID": "index.html#rendering-process",
+    "href": "index.html#rendering-process",
+    "title": "Open Scholarship Workshop",
+    "section": "Rendering Process",
+    "text": "Rendering Process\n\n\nQuarto document (.qmd) contains code and Markdown formatted text.\nknitr executes all the R code, knits the results together with Markdown text, and creates a new Markdown document.\nThe new Markdown document is then processed by PanDoc, which converts the Markdown syntax into HTML and CSS code. PanDoc is like a swiss-army knife for Markdown—it can covert many types of Markdown documents into a variety of other formats. All of these steps happen behind the scenes. As long as you have a properly formatted R Markdown document, these tools will take care of the rest."
+  },
+  {
+    "objectID": "index.html#defined",
+    "href": "index.html#defined",
+    "title": "Open Scholarship Workshop",
+    "section": "Defined",
+    "text": "Defined\nMarkdown is a “lightweight markup language with plain-text-formatting syntax.”\nWhat this means is that Markdown is easy-to-write using any generic text editor and easy-to-read in its raw form."
+  },
+  {
+    "objectID": "index.html#markdown-resources",
+    "href": "index.html#markdown-resources",
+    "title": "Open Scholarship Workshop",
+    "section": "Markdown Resources",
+    "text": "Markdown Resources\nHere are a few resources I recommend to augment your skill development.\n\nBasic Markdown Syntax Reference from The Markdown Guide, a free and open-source reference guide.\nExtended Markdown Syntax Reference. Advanced features that build on the basic Markdown syntax. Also from The Markdown Guide.\nInteractive Markdown Tutorial for beginners. Each lesson contains an explanation of Markdown syntax. Hit the Try it button to test your skills and see what your solution looks like when it is rendered. There is also an option to see the HTML equivalent of the Markdown text. This is a nice tutorial.\nMarkdown Tables Generator. Tired of typing all of those hyphens and pipes?\nCharacter Entity Reference Chart for coding special symblos in Markdown.\nHacks. Workarounds for things not officially supported by Markdown."
+  },
+  {
+    "objectID": "index.html#markdown-editors",
+    "href": "index.html#markdown-editors",
+    "title": "Open Scholarship Workshop",
+    "section": "Markdown Editors",
+    "text": "Markdown Editors\nMarkdown editors are a great tool to learn Markdown because you can see a live preview of what the rendered text will look like.\nMarkdown Online Editors\nOnline editors are universally supported across operating systems. Here are a few to get you started.\n\nStackEdit. In-browser Markdown editor\nDillinger. “The Last Markdown Editor, Ever.”\nMarkTwo. Free, open source progressive web app.\n\nMarkdown Desktop Editors\nI only listing free desktop editors here. There are plenty more if you are willing to pony up some cash. Some of these are operating system specific while others are universal.\n\nMarkText is a simple and elegant open-source markdown editor that focused on speed and usability.. Universal.\nZettlr ships with a lot of features helpful in writing markdown. It is especially aimed at writing research papers in the arts and humanities (and therefore offers writing aids such as automatic footnote insertion and in-place editing, or a global search). Universal.\nZnote is a free, elegant program meant to help you write beautifully organized Markdown documents. You can organize your texts, notes, and files even better, using the simplistic left-side widget organizer for smoothly navigating different files. Universal.\nMarkdownPad and MarkdownPad 2 are full-featured Markdown editors for Windows.\nMacDown is an open source Markdown editor for macOS."
+  },
+  {
+    "objectID": "index.html#code-chunk-anatomy",
+    "href": "index.html#code-chunk-anatomy",
+    "title": "Open Scholarship Workshop",
+    "section": "Code chunk anatomy",
+    "text": "Code chunk anatomy"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Open Scholarship Workshop",
+    "section": "",
+    "text": "Goal is to ensure your files are Machine and Human readable.\n\nThis applies to:\n\nfiles\ndirectories\nvariables in code\ntabular data (row and column names)"
+  },
+  {
+    "objectID": "index.html#do-not-use-spaces-to-separate-words",
+    "href": "index.html#do-not-use-spaces-to-separate-words",
+    "title": "Open Scholarship Workshop",
+    "section": "Do not use spaces to separate words",
+    "text": "Do not use spaces to separate words\nKebab case: Words delimited by a hyphen (-)1.\nfile-one\ndirectory-two\nSnake case: Words delimited by an underscore (_).\nfile_one\nvariable_two\nPascal case: Words delimited by capital letters.\nFileOne\nVariableTwo\nCamel case: Words delimited by capital letters, except the initial word.\nfileOne\nvariableTwo\ncannot be used for R variable"
+  },
+  {
+    "objectID": "index.html#special-characters",
+    "href": "index.html#special-characters",
+    "title": "Open Scholarship Workshop",
+    "section": "Special characters",
+    "text": "Special characters\nNever use special characters in your naming scheme.\n(e.g., * # : \\ / &lt; &gt; | \" ? [ ] ; , = + & £ $ , and so on).\nMany symbols are prohibited and a lot of software will reject these symbols.\nLetters, numbers, dashes, underscores only."
+  },
+  {
+    "objectID": "index.html#mathjax-render-equations-to-html",
+    "href": "index.html#mathjax-render-equations-to-html",
+    "title": "Open Scholarship Workshop",
+    "section": "MathJax render equations to HTML",
+    "text": "MathJax render equations to HTML\n\nCodeOutput\n\n\n\n$$\n\\begin{cases}\n\\dot{x}  = \\sigma(y-x)  \\\\\n\\dot{y} = \\rho x - y - xz  \\\\\n\\dot{z} = -\\beta z + xy\n\\end{cases}\n$$\n\n\\begin{gather*}\ne^{i\\pi} + 1 = 0\n\\end{gather*}\n\n\\begin{align}\nf(k) = {n \\choose k} p^{k} (1-p)^{n-k}\n\\end{align}\n\n\n\\[\n\\begin{cases}\n\\dot{x}  = \\sigma(y-x)  \\\\\n\\dot{y} = \\rho x - y - xz  \\\\\n\\dot{z} = -\\beta z + xy\n\\end{cases}\n\\] \\[\\begin{gather*}\ne^{i\\pi} + 1 = 0\n\\end{gather*}\\]\n\\[\\begin{align}\nf(k) = {n \\choose k} p^{k} (1-p)^{n-k}\n\\end{align}\\]"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "Open Scholarship Workshop",
+    "section": "",
+    "text": "Baker, Monya. 2016. “1,500 Scientists Lift the Lid on Reproducibility.” Nature 533 (7604). https://doi.org/10.1038/533452a.\n\n\nCacioppo, John T, Robert M Kaplan, Jon A Krosnick, James L Olds, and Heather Dean. 2015. “Social, Behavioral, and Economic Sciences Perspectives on Robust and Reliable Science.” Report of the Subcommittee on Replicability in Science Advisory Committee to the National Science Foundation Directorate for Social, Behavioral, and Economic Sciences 1.\n\n\nGoodman, Steven N, Daniele Fanelli, and John PA Ioannidis. 2016. “What Does Research Reproducibility Mean?” Science Translational Medicine 8 (341): 341ps12–12. https://doi.org/10.1126/scitranslmed.aaf5027."
+  }
+]
