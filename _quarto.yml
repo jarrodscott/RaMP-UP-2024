@@ -1,3 +1,7 @@
 project:
   type: website
   output-dir: _site
+
+website:
+  site-url: https://jarrodscott.github.io/RaMP-UP-2024/
+  path: /RaMP-UP-2024/
